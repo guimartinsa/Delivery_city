@@ -1,0 +1,12 @@
+{
+  "name": "delivery_city",
+  "version": "1.0.0",
+  "description": "Sistema web de delivery com cardápio por loja, automação WhatsApp e impressão de pedidos",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
