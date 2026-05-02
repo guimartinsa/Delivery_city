@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Delivery City</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <h1>Delivery City</h1>
+    <nav>
+      <a href="#lojas">Lojas</a>
+      <a href="#carrinho">Carrinho</a>
+      <a href="#pedidos">Pedidos</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h2>Peça online em segundos 🚀</h2>
+      <p>Site 100% funcional com dados mockados para validar fluxo completo.</p>
+    </section>
+
+    <section id="lojas">
+      <h3>Lojas disponíveis</h3>
+      <div id="stores" class="grid"></div>
+    </section>
+
+    <section>
+      <h3>Cardápio</h3>
+      <div id="menu" class="grid"></div>
+    </section>
+
+    <section id="carrinho" class="cart">
+      <h3>Carrinho</h3>
+      <ul id="cartItems"></ul>
+      <p class="total">Total: <strong id="total">R$ 0,00</strong></p>
+      <div class="cart-actions">
+        <input id="customerName" type="text" placeholder="Seu nome" />
+        <button id="checkoutBtn">Finalizar pedido</button>
+      </div>
+    </section>
+
+    <section id="pedidos">
+      <h3>Últimos pedidos (mock)</h3>
+      <div id="orders"></div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
